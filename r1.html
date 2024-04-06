@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="r1.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://img.freepik.com/premium-vector/power-nature-vector-logo-design_825834-7847.jpg?w=740" alt="EmpowHer Logo">
+            </div>
+        
+        </div>
+    </header>
+
+    <section class="event-details">
+        <div class="container">
+            <h1>Webinar: Introduction to Consent Education</h1>
+            <p>Date: March 25, 2024</p>
+            <p>Time: 10:00 AM</p>
+            <img src="https://img.freepik.com/free-photo/medium-shot-latin-people-training-outdoors_23-2151039450.jpg?t=st=1712081993~exp=1712085593~hmac=82bd4629291549d60c211bd0a15375a9e5e481c563180a35f1ad5bf91c584c56&w=740" alt="Event Image">
+        </div>
+    </section>
+
+    <section class="registration-form">
+        <div class="container">
+            <h2>Register Now</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit" id="registerButton">Register</button>
+            </form>
+            <div id="registrationMessage"></div>
+        </div>
+    </section>
+
+    <script src="r1.js"></script>
+</body>
+</html>

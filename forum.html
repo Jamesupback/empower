@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empower: Forum</title>
+    <link rel="stylesheet" href="forum.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+            <div class="user-profile" onclick="redirectToUserProfile()">
+                <img src="https://cdn-icons-png.freepik.com/256/3177/3177440.png?ga=GA1.1.602968942.1705242693&.png" alt="User Profile">
+            </div>
+            <div class="logout" onclick="logout()">
+                <img src="https://cdn-icons-png.freepik.com/256/10024/10024225.png?ga=GA1.1.602968942.1705242693&.png" alt="Logout">
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <h1>Upcoming Events</h1>
+            <div id="upcoming-events" class="event-posters">
+                <!-- Upcoming events will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <h2>All Events</h2>
+            <div id="all-events" class="event-posters">
+                <!-- All events will be dynamically added here -->
+            </div>
+            <div class="scroll-container">
+                <button class="scroll-button left" onclick="scrollLeft()">&#10094;</button>
+                <div id="workshop-images" class="workshop-images">
+                    <!-- Workshop images will be dynamically added here -->
+                </div>
+                <button class="scroll-button right" onclick="scrollRight()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="forum.js"></script>
+</body>
+</html>

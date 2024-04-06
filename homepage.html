@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empower: Consent Education and Support</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>EMPOWER</h1>
+            <div class="profile-actions">
+                <div class="user-profile" onclick="redirectToUserProfile()">
+                    <img src="https://cdn-icons-png.freepik.com/256/3177/3177440.png?ga=GA1.1.602968942.1705242693&.png" alt="User Profile">
+                </div>
+                <div class="logout" onclick="logout()">
+                    <img src="https://cdn-icons-png.freepik.com/256/10024/10024225.png?ga=GA1.1.602968942.1705242693&.png" alt="Logout">
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="./learning.html" onclick="navigateToPage('learn')">Learning Module</a></li>
+                    <li><a href="./forum.html" onclick="navigateToPage('forum')">Forum</a></li>
+                    <li><a href="./resources.html" onclick="navigateToPage('resources')">Resources</a></li>
+                    <li><a href="./Emergency.html" onclick="navigateToPage('hotlines')">Emergency Hotline</a></li>
+                </ul>
+            </nav>
+        </main>
+    </div>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
+

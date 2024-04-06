@@ -1,0 +1,189 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+}
+
+.header {
+    background-color: #4285F4; /* Google blue color */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center;
+    position: relative; /* Position relative for absolute positioning of icons */
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.user-profile,
+.logout {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.user-profile {
+    right: 60px;
+}
+
+.logout {
+    right: 10px;
+}
+
+.user-profile img,
+.logout img {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    background-image: url('learning-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    color: #000000;
+    font-size: 36px;
+    margin: 0;
+}
+
+.learning-module {
+    padding: 20px 0;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    color: #4285F4;
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #4285F4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Add your CSS styles for the learning module here */
+
+/* Styling for footer image */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-image {
+    width: 100%;
+    max-width: 900px; /* Adjust maximum width as needed */
+}
+/* Add your CSS styles here */
+.header {
+    background-color: #4285F4;
+    color: #fff;
+    padding: 10px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.user-profile img,
+.logout img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+h2 p{
+    padding-bottom: 350px;
+    padding-right: 20px;
+    text-align: center;
+}
+#sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section:hover {
+    background-color: #e0e0e0;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.section p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.h2
+{
+
+
+ text-align: center;
+}

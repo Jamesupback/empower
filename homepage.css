@@ -1,0 +1,90 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    height:100vh;
+    /* background-color: #f2f2f2; Light gray background */
+    background: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust this width as needed */
+    margin: 10% auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #4285F4; /* Google blue color */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* White text color */
+    position: relative; /* Position for the icons */
+}
+
+h1 {
+    margin: 0;
+}
+
+.profile-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-profile, .logout {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensure rounded corners */
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user-profile img, .logout img {
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #fdf0d5; /* Light gray hover background */
+}
+
