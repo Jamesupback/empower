@@ -71,8 +71,10 @@ ul {
 li {
     margin-bottom: 10px;
 }
-
-a {
+.user-profile a{
+    background-color: none;
+}
+.link {
     text-decoration: none;
     color: #333;
     display: block;
